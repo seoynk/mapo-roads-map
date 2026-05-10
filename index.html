@@ -748,7 +748,7 @@
 
       // 픽셀 단위 오프셋 (양수 = 아래로, 음수 = 위로)
       // 화면 하단에 패널이 있으므로 중심을 위로 올려서 도로가 가운데 오도록
-      const offsetY = isMobile ? -(mapH * 0.10) : -(mapH * 0.06);
+      const offsetY = isMobile ? -(mapH * 0.10) : -(mapH * 0.15);
       const offsetX = isMobile ? 0 : (mapW * 0.08); // 데스크톱: 오른쪽 사이드패널 보정
 
       const proj = map.getProjection();
